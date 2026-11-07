@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Amina Zabona</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
-
 <body class="bg-portfolio text-white">
 
     <!-- NAVBAR -->
@@ -24,11 +22,9 @@
                     <br><small class="text-white-50 brand-sub">WEB DEVELOPER</small>
                 </div>
             </a>
-
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="nav">
                 <ul class="navbar-nav ms-auto gap-lg-1 pt-3 pt-lg-0">
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('home') }}">Home</a></li>
@@ -45,30 +41,28 @@
         <section class="py-5 min-vh-100 d-flex align-items-center">
             <div class="container">
                 <div class="row align-items-center g-5">
-
                     <div class="col-lg-5 text-center">
                         <div class="about-img-frame">
                             <img src="{{ url_for('static', filename='css/img/about.jpeg') }}"
                                  alt="Amina Zabona" class="img-fluid">
                         </div>
                     </div>
-
                     <div class="col-lg-7 text-center text-lg-start">
-                        <span class="badge rounded-pill hero-badge px-3 py-2 mb-3">À propos de moi</span>
-                        <h1 class="display-5 fw-bold mb-3">
-                            Mon <span class="text-primary">parcours</span>
-                        </h1>
+                        <span class="badge rounded-pill hero-badge px-3 py-2 mb-3">About me</span>
+                        <h1 class="display-5 fw-bold mb-3">My <span class="text-primary">course</span></h1>
                         <p class="text-white-50 lead fs-6 mb-3">
-                            Je suis Amina Zabona, développeuse web et diplômée en Informatique Appliquée à la Gestion des Entreprises.
+                            My name is Amina Zabona, and I am a web developer with a degree in Applied Computer Science for Business Management. Passionate about digital technologies, computer science, and creating innovative solutions, I enjoy exploring the possibilities offered by web development to design tools that address real needs and make users’ daily lives easier.
+
+My academic background and various training experiences have enabled me to gain expertise in programming, application design, and database management. I am particularly interested in web development, user interface design, and the creation of interactive applications. I place great importance on code quality, project organization, user experience, and the adaptability of applications across different devices.
                         </p>
                         <p class="text-white-50 mb-4">
-                            Passionnée par les technologies numériques, je conçois des interfaces et applications web modernes, intuitives et responsives avec HTML, CSS, Bootstrap, JavaScript, Python et Flask.
-                        </p>
+                            I work with a variety of technologies and tools, including HTML5, CSS3, Bootstrap, JavaScript, Python, and Flask. These technologies enable me to design modern interfaces, develop interactive features, implement server-side logic, and connect applications to databases. I’m also interested in full-stack development, REST APIs, data management, and new technologies that are driving innovation in the IT sector.
+
+Beyond my technical skills, I’m a curious, organized person who is motivated by learning.
                         <a href="{{ url_for('projects') }}" class="btn btn-primary px-4 rounded-3 shadow-primary">
-                            <i class="bi bi-code-slash me-2"></i>Découvrir mes projets
+                            <i class="bi bi-code-slash me-2"></i>Explore My Projects
                         </a>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -77,7 +71,7 @@
     <!-- FOOTER -->
     <footer class="py-4 text-center border-top border-secondary border-opacity-10 bg-dark bg-opacity-25 text-white-50 small">
         <div class="container">
-            <span class="fw-bold text-white">Amina Zabona</span> &copy; 2026 • Tous droits réservés.
+            <span class="fw-bold text-white">Amina Zabona</span> &copy; 2026 • All rights reserved.
         </div>
     </footer>
 

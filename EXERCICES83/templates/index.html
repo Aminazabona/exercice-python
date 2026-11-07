@@ -36,10 +36,10 @@
         <div class="container">
             <div class="row align-items-center g-5">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <span class="badge rounded-pill hero-badge px-3 py-2 mb-3">👋 Salut, je suis</span>
+                    <span class="badge rounded-pill hero-badge px-3 py-2 mb-3">👋 Hi, I'm</span>
                     <h1 class="display-3 fw-bold text-white mb-1">Amina Zabona</h1>
-                    <h2 class="display-6 fw-bold text-primary mb-3">Développeuse Web</h2>
-                    <p class="text-white-50 lead fs-6 mb-4">Je crée des sites et applications web modernes, performants et responsives.</p>
+                    <h2 class="display-6 fw-bold text-primary mb-3">Web Developer</h2>
+                    <p class="text-white-50 lead fs-6 mb-4">I design and develop modern, high-performance, and responsive websites and apps. I turn your ideas into intuitive and elegant digital experiences tailored to your needs.</p>
                     <div class="d-flex justify-content-center justify-content-lg-start gap-2 mb-4">
                         <a href="https://github.com" class="social-btn"><i class="bi bi-github"></i></a>
                         <a href="https://linkedin.com" class="social-btn"><i class="bi bi-linkedin"></i></a>
@@ -47,8 +47,8 @@
                         <a href="mailto:contact@aminazabona.dev" class="social-btn"><i class="bi bi-envelope"></i></a>
                     </div>
                     <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
-                        <a href="/projects" class="btn btn-primary btn-lg px-4 rounded-3 shadow-primary"><i class="bi bi-collection me-2"></i>Voir mes projets <i class="bi bi-arrow-right ms-2"></i></a>
-                        <a href="/static/cv.pdf" class="btn btn-outline-light btn-lg px-4 rounded-3"><i class="bi bi-download me-2"></i>Télécharger CV</a>
+                        <a href="/projects" class="btn btn-primary btn-lg px-4 rounded-3 shadow-primary"><i class="bi bi-collection me-2"></i>View my projects <i class="bi bi-arrow-right ms-2"></i></a>
+                        <a href="{{ url_for('static', filename='css/fichiers/AMINA_ZABONA_ESTHER_CV.pdf') }}" class="btn btn-outline-light btn-lg px-4 rounded-3"><i class="bi bi-download me-2"></i>Download CV</a>
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end">
@@ -77,8 +77,10 @@
     </div>
 </div>
         <div class="col-md-7 text-center text-md-start">
-            <h2 class="h2 fw-bold text-white mb-2">À propos de <span class="text-primary">moi</span></h2>
-            <p class="text-white-50 lead fs-6 mb-0">Je suis Amina Zabona, développeuse web passionnée. Je conçois des interfaces web modernes, intuitives, performantes et entièrement responsives avec HTML5, CSS3, Bootstrap et Python/Flask.</p>
+            <h2 class="h2 fw-bold text-white mb-2">About <span class="text-primary">me</span></h2>
+            <p class="text-white-50 lead fs-6 mb-0">My name is Amina Zabona. I’m a passionate web developer with a degree in Applied Computer Science for Business Management. I love turning ideas into useful, modern, and accessible digital experiences. I design and develop websites and interactive applications, paying special attention to design, user experience, performance, and responsiveness across different screens.
+
+I primarily work with HTML5, CSS3, Bootstrap, JavaScript, Python, and Flask. I’m also interested in interface design, full-stack development, and new technologies. Curious, motivated, and always eager to learn, I constantly strive to strengthen my skills, take on new technical challenges, and contribute to innovative projects.</p>
         </div>
     </div></div>
 </section>
@@ -88,5 +90,5 @@
 </body>
 
 <footer class="py-4 text-center border-top border-secondary border-opacity-10 bg-dark bg-opacity-25 text-white-50 small">
-    <div class="container"><span class="fw-bold text-white">Amina Zabona</span> &copy; 2026 • Tous droits réservés.</div></footer>
+    <div class="container"><span class="fw-bold text-white">Amina Zabona</span> &copy; 2026 • All rights reserved.</div></footer>
 </html>
